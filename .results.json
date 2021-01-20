@@ -1,0 +1,52 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-01-20T03:52:52.787Z",
+    "end": "2021-01-20T03:52:52.813Z",
+    "duration": 26
+  },
+  "tests": [
+    {
+      "title": "must match Hello World",
+      "fullTitle": "hello-world method in hello-world.js must match Hello World",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Cannot find module '../hello-world'\nRequire stack:\n- /Users/caitlinmajewski/Development/code/node-hello-world-lab-g-416/test/index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:976:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:859:27)\n    at Module.require (internal/modules/cjs/loader.js:1036:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at Context.<anonymous> (test/index.js:5:22)\n    at processImmediate (internal/timers.js:456:21)",
+        "message": "Cannot find module '../hello-world'\nRequire stack:\n- /Users/caitlinmajewski/Development/code/node-hello-world-lab-g-416/test/index.js\n- /Users/caitlinmajewski/Development/code/node-hello-world-lab-g-416/node_modules/mocha/lib/mocha.js\n- /Users/caitlinmajewski/Development/code/node-hello-world-lab-g-416/node_modules/mocha/index.js\n- /Users/caitlinmajewski/Development/code/node-hello-world-lab-g-416/node_modules/mocha/bin/_mocha",
+        "code": "MODULE_NOT_FOUND",
+        "requireStack": [
+          "/Users/caitlinmajewski/Development/code/node-hello-world-lab-g-416/test/index.js",
+          "/Users/caitlinmajewski/Development/code/node-hello-world-lab-g-416/node_modules/mocha/lib/mocha.js",
+          "/Users/caitlinmajewski/Development/code/node-hello-world-lab-g-416/node_modules/mocha/index.js",
+          "/Users/caitlinmajewski/Development/code/node-hello-world-lab-g-416/node_modules/mocha/bin/_mocha"
+        ]
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "must match Hello World",
+      "fullTitle": "hello-world method in hello-world.js must match Hello World",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Cannot find module '../hello-world'\nRequire stack:\n- /Users/caitlinmajewski/Development/code/node-hello-world-lab-g-416/test/index.js\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:976:15)\n    at Function.Module._load (internal/modules/cjs/loader.js:859:27)\n    at Module.require (internal/modules/cjs/loader.js:1036:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at Context.<anonymous> (test/index.js:5:22)\n    at processImmediate (internal/timers.js:456:21)",
+        "message": "Cannot find module '../hello-world'\nRequire stack:\n- /Users/caitlinmajewski/Development/code/node-hello-world-lab-g-416/test/index.js\n- /Users/caitlinmajewski/Development/code/node-hello-world-lab-g-416/node_modules/mocha/lib/mocha.js\n- /Users/caitlinmajewski/Development/code/node-hello-world-lab-g-416/node_modules/mocha/index.js\n- /Users/caitlinmajewski/Development/code/node-hello-world-lab-g-416/node_modules/mocha/bin/_mocha",
+        "code": "MODULE_NOT_FOUND",
+        "requireStack": [
+          "/Users/caitlinmajewski/Development/code/node-hello-world-lab-g-416/test/index.js",
+          "/Users/caitlinmajewski/Development/code/node-hello-world-lab-g-416/node_modules/mocha/lib/mocha.js",
+          "/Users/caitlinmajewski/Development/code/node-hello-world-lab-g-416/node_modules/mocha/index.js",
+          "/Users/caitlinmajewski/Development/code/node-hello-world-lab-g-416/node_modules/mocha/bin/_mocha"
+        ]
+      }
+    }
+  ],
+  "passes": []
+}
